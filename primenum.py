@@ -1,2 +1,3 @@
 for i in range(1,10):
-    if i%
+    count=0
+    for j in range

@@ -1,8 +1,6 @@
-l=[1,2,6,8,9]
+l=[5,8,3,65,27,4,86]
 
-
-for i in l:
-    
-    if i>n:
-        n=i
-    print(n) 
+x=sorted(l)
+for i in x:
+    y=i[-1]
+    z=y 
