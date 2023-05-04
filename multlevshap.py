@@ -3,18 +3,30 @@ class shape:
         self.color=color
         print(self.color)
 class rectangle(shape):
-    def dis(self,width,height):
+    def __init__(self,width,height):
         self.width=width
         self.height=height
         print(self.width,self.height)
 class square(rectangle):
-    def display(self,width,height):
+    def __init__(self,width,height):
         self.width=width
         self.height=height
         print(self.width,self.height)
-ob1 = shape('red')    
-obr=rectangle()
-obr.dis(4,6)
-obs=square()
-obs.dis(4,6)
-obs.display(2,2)
+ob=shape('red')
+ob1=rectangle(4,6)
+ob2=square(2,2)
+
+
+# class A:
+#     def __init__(self,name):
+#         self.name = name
+#         print(self.name)
+# class B(A):
+#     def __init__(self, age):
+#         self.age = age
+#         print(self.age)
+# ob1 = A('aswin')
+# ob = B(25)
+        
+        
+

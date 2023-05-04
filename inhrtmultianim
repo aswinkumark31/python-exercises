@@ -1,0 +1,15 @@
+class animal:
+    def display(self,name):
+        self.name=name
+        print(self.name)
+class canfly:
+    pass
+class canswim:
+    pass
+class duck(animal,canfly,canswim):
+    def dis(self,color):
+        self.color=color
+        print(self.color)
+ob=duck()
+ob.display('dog')
+ob.dis('white')
