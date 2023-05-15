@@ -13,5 +13,5 @@ def dismult(a,b):
 def disdiv(a,b):
     div=a/b
     print(div)
-
-    
+ 
+   
